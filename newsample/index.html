@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palawan National School Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">
+            <h1>Palawan National School</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+    </header>
+
+    <!-- Sidebar Section -->
+    <nav class="sidebar">
+        <ul>
+            <li><a href="index.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+            <li><a href="students.html"><i class="fas fa-users"></i> Students</a></li>
+            <li><a href="teachers.html"><i class="fas fa-chalkboard-teacher"></i> Teachers</a></li>
+            <li><a href="classes.html"><i class="fas fa-book"></i> Classes</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <div class="main-content">
+        <h2>Welcome to the School Dashboard</h2>
+        <p>This is your admin dashboard where you can manage students, teachers, and classes.</p>
+
+        <div class="card-container">
+            <div class="card">
+                <img src="https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Students">
+                <div class="card-body">
+                    <h3>Students</h3>
+                    <p>View and manage student records, grades, and attendance.</p>
+                    <button onclick="window.location.href='students.html'">View Students</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.pexels.com/photos/3771074/pexels-photo-3771074.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Teachers">
+                <div class="card-body">
+                    <h3>Teachers</h3>
+                    <p>Manage teacher profiles, schedules, and more.</p>
+                    <button onclick="window.location.href='teachers.html'">View Teachers</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.pexels.com/photos/301926/pexels-photo-301926.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Classes">
+                <div class="card-body">
+                    <h3>Classes</h3>
+                    <p>Schedule and manage classes, assignments, and classroom resources.</p>
+                    <button onclick="window.location.href='classes.html'">View Classes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Palawan National School | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
